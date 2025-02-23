@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Contacto</title>
+</head>
+<body class="pagina">
+    <a href="index.html">Inicio</a> | <a href="Información.html">Información</a> | <a href="Cuidados.html">Cuidados</a> | <a href="MisMascotas.html">Mis Mascotas</a> | <a href="Contacto.html">Contacto</a>
+
+    <h1>Contacto</h1>
+    <h2 class="textos">
+        En esta sección puedes dejar tu información de contacto
+    </h2>
+
+    <form class="contacto" action="#exito" method="get">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div id="exito" class="mensaje-exito">
+        <p>¡Formulario enviado con éxito!</p>
+    </div>
+
+</body>
+</html>
